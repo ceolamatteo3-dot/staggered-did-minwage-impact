@@ -1,0 +1,2 @@
+model,estimate_log_points,std_error,ci_low,ci_high,approximate_percent_effect,approximate_percent_ci_low,approximate_percent_ci_high
+C&S group-weighted overall ATT,-0.00416900280404124,0.006743835095917763,-0.017386919592040057,0.009048913983957577,-0.4160324575892327,-1.7236639336323356,0.9089979177777652

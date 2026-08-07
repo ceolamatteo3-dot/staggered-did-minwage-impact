@@ -1,0 +1,19 @@
+                  continuous_twfe   continuous_st..  continuous_di.. continuous_stat..
+                             TWFE State seasonality Division-time FE      State trends
+Dependent Var.:           log_emp           log_emp          log_emp           log_emp
+                                                                                      
+log_real_mw       0.0431 (0.0618)   0.0442 (0.0622)  0.0715 (0.0541) -0.0671. (0.0383)
+Fixed-Effects:    ---------------   ---------------  --------------- -----------------
+state_fips                    Yes                No              Yes               Yes
+t                             Yes               Yes               No               Yes
+state_fips-qtr                 No               Yes               No                No
+census_division-t              No                No              Yes                No
+Varying Slopes:   ---------------   ---------------  --------------- -----------------
+t (state_fips)                 No                No               No               Yes
+_________________ _______________   _______________  _______________ _________________
+S.E.: Clustered    by: state_fips    by: state_fips   by: state_fips    by: state_fips
+Observations                2,244             2,244            2,244             2,244
+R2                        0.99877           0.99912          0.99921           0.99954
+Within R2                 0.00559           0.00812          0.01685           0.00954
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

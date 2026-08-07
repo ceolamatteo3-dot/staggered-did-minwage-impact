@@ -1,0 +1,2 @@
+test,p_value,interpretation
+Native did-package Wald pretest,NA,Failure to reject is supporting evidence only; it does not prove post-treatment parallel trends.

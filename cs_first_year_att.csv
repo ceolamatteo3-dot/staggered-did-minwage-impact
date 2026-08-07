@@ -1,0 +1,2 @@
+model,estimate_log_points,std_error,ci_low,ci_high,approximate_percent_effect,approximate_percent_ci_low,approximate_percent_ci_high
+C&S cohort-balanced first-year ATT: event times 0-3,-8.31492017231301e-4,0.0034382374575887453,-0.0075704374341052415,0.005907453399642639,-0.0831146423536766,-0.7541853848198055,0.5924936813005433

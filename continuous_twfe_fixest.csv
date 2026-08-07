@@ -1,0 +1,5 @@
+model,estimand,estimate,std_error,ci_low,ci_high,p_value,nobs,clusters,inference
+State FE + national quarter FE,Employment-minimum-wage elasticity,0.043070713696828765,0.061781268309328966,-0.07802057218945602,0.16416199958311353,0.48893885643651613,2244,51,State-clustered SE with fixest finite-sample corrections; not CR2/CRV2
+State-by-calendar-quarter seasonality + national quarter FE,Employment-minimum-wage elasticity,0.044164025769551106,0.06216585250256381,-0.07768104513547397,0.16600909667457617,0.48074276022284923,2244,51,State-clustered SE with fixest finite-sample corrections; not CR2/CRV2
+State FE + Census-division-by-quarter FE,Employment-minimum-wage elasticity,0.07147127545233316,0.0541542971304861,-0.03467114692341959,0.1776136978280859,0.19292246097640672,2244,51,State-clustered SE with fixest finite-sample corrections; not CR2/CRV2
+State FE + national quarter FE + state-specific linear trends,Employment-minimum-wage elasticity,-0.0670562617845688,0.038306365342752884,-0.14213673785636444,0.008024214287226841,0.08616171675846225,2244,51,State-clustered SE with fixest finite-sample corrections; not CR2/CRV2
