@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-This repository contains the replication package evaluating the causal impact of state-initiated minimum wage increases ($\ge 5 '%' \%$) on employment in the **Food Services and Drinking Places industry (NAICS 722)**. 
+This repository contains the replication package evaluating the causal impact of state-initiated minimum wage increases ($\ge 5\%$) on employment in the **Food Services and Drinking Places industry (NAICS 722)**. 
 
 Using a balanced quarterly panel of 51 U.S. state entities over 44 quarters (2009 Q1 – 2019 Q4, $N = 2,244$), we employ the heterogeneity-robust **Callaway & Sant'Anna (2021)** Difference-in-Differences (DiD) estimator, supplemented by **Goodman-Bacon (2021)** decompositions and **Rambachan & Roth (2023)** `HonestDiD` sensitivity analysis.
 
