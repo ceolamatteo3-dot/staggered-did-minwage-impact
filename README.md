@@ -60,12 +60,12 @@ Pre-trend Wald tests have low power against non-linear trend deviations and intr
 ```text
 causal_inference_wage_employment/
 ├── data/
-│   ├── qcew/                      # BLS QCEW industry CSV files (NAICS 722)
-│   └── mw/
-│       └── mw_state_quarterly.xlsx # UKCPR quarterly state minimum wage database
+│   ├──                       # BLS QCEW industry CSV files (NAICS 722)
+│   └── 
+│       └── merged_qcew_mw_panel.csv. # UKCPR quarterly state minimum wage database merged with bls employment data
 ├── output/
 │   ├── tables/                    # CSV & TXT summaries (C&S ATTs, TWFE, diagnostics)
-│   └── figures/                   # Bacon decomposition & HonestDiD sensitivity plots
+│   └──                    # Bacon decomposition & HonestDiD sensitivity plots
 ├── build_panel.py                 # Panel assembly, CPI deflation, treatment cohort assignment
 ├── causal_analysis.py             # Pipeline orchestrator & continuous TWFE benchmark runner
 └── modern_did.R                   # C&S DiD, Goodman-Bacon, & HonestDiD sensitivity analysis
